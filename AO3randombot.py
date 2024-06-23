@@ -189,7 +189,7 @@ def main():
         updater.start_webhook(listen="0.0.0.0",
                               port=PORT,
                               url_path=TOKEN,
-                              webhook_url="https://ao3agnesinthestreamlet.herokuapp.com/" + TOKEN)
+                              webhook_url="https://ao3randombot.herokuapp.com/" + TOKEN)
         print('Listening via webhook')
     else:
         print('You want to use local or heroku? Make up your mind')
